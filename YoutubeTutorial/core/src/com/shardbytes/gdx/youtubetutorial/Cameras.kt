@@ -20,7 +20,7 @@ class Cameras : Game() {
 	val VIEWP_WIDTH: Float = 500f
 	
 	override fun create() {
-		
+
 		batch = SpriteBatch()
 		world = Sprite(Texture("world.png"))
 		
