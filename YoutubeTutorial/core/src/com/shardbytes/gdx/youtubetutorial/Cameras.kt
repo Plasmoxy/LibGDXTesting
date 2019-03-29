@@ -47,6 +47,7 @@ class Cameras : Game() {
 		
 		cam.update()
 		player.setOriginBasedPosition(cam.position.x, cam.position.y)
+		player.rotation += 1f
 		
 		batch.begin()
 		batch.projectionMatrix = cam.combined
